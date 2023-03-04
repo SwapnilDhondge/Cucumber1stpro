@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.Run
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 52.589 s <<< FAILURE! - in TestRunner.Run
+TestRunner.Run.runScenario["verify A/B Testing link", "testing practice1"](1)  Time elapsed: 43.439 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at StepDefinition.SDLinkTest.user_redirect_to_new_page_and_verify_title_of_page(SDLinkTest.java:129)
+	at ✽.user redirect to new page and verify title of page(file:///G:/cucumbercode%20studio/CucumberFramework-master/CucumberFramework/./Features/theinternet.feature:30)
+
